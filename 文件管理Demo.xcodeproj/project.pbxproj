@@ -19,6 +19,8 @@
 		9FCDA01E19EE539F0094009A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCDA00619EE539F0094009A /* UIKit.framework */; };
 		9FCDA02619EE539F0094009A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FCDA02419EE539F0094009A /* InfoPlist.strings */; };
 		9FCDA02819EE539F0094009A /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCDA02719EE539F0094009A /* ____DemoTests.m */; };
+		9FCDA03419EE53B30094009A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCDA03219EE53B30094009A /* MainViewController.m */; };
+		9FCDA03519EE53B30094009A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCDA03319EE53B30094009A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		9FCDA02319EE539F0094009A /* 文件管理DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "文件管理DemoTests-Info.plist"; sourceTree = "<group>"; };
 		9FCDA02519EE539F0094009A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FCDA02719EE539F0094009A /* ____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoTests.m"; sourceTree = "<group>"; };
+		9FCDA03119EE53B30094009A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9FCDA03219EE53B30094009A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9FCDA03319EE53B30094009A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				9FCDA01119EE539F0094009A /* AppDelegate.h */,
 				9FCDA01219EE539F0094009A /* AppDelegate.m */,
+				9FCDA03119EE53B30094009A /* MainViewController.h */,
+				9FCDA03219EE53B30094009A /* MainViewController.m */,
+				9FCDA03319EE53B30094009A /* MainViewController.xib */,
 				9FCDA01419EE539F0094009A /* Images.xcassets */,
 				9FCDA00919EE539F0094009A /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCDA00D19EE539F0094009A /* InfoPlist.strings in Resources */,
+				9FCDA03519EE53B30094009A /* MainViewController.xib in Resources */,
 				9FCDA01519EE539F0094009A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCDA01319EE539F0094009A /* AppDelegate.m in Sources */,
+				9FCDA03419EE53B30094009A /* MainViewController.m in Sources */,
 				9FCDA00F19EE539F0094009A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
